@@ -1,6 +1,47 @@
-SRCS 	= ft_atoi.c ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_strchr.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncmp.c ft_strnstr.c ft_strrchr.c ft_tolower.c ft_toupper.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
+SRCS 	= srcs/ft_atoi.c \
+		  srcs/ft_bzero.c \
+		  srcs/ft_calloc.c \
+		  srcs/ft_itoa.c \
+		  srcs/ft_split.c \
+		  srcs/ft_tolower.c \
+		  srcs/ft_toupper.c \
+		  srcs/is_functions/ft_isalnum.c \
+		  srcs/is_functions/ft_isalpha.c \
+		  srcs/is_functions/ft_isascii.c \
+		  srcs/is_functions/ft_isdigit.c \
+		  srcs/is_functions/ft_isprint.c \
+		  srcs/mem_functions/ft_memchr.c \
+		  srcs/mem_functions/ft_memcmp.c \
+		  srcs/mem_functions/ft_memcpy.c \
+		  srcs/mem_functions/ft_memmove.c \
+		  srcs/mem_functions/ft_memset.c \
+		  srcs/print_functions/ft_putchar_fd.c \
+		  srcs/print_functions/ft_putendl_fd.c \
+		  srcs/print_functions/ft_putnbr_fd.c \
+		  srcs/print_functions/ft_putstr_fd.c \
+		  srcs/str_functions/ft_strchr.c \
+		  srcs/str_functions/ft_strdup.c \
+		  srcs/str_functions/ft_striteri.c \
+		  srcs/str_functions/ft_strjoin.c \
+		  srcs/str_functions/ft_strlcat.c \
+		  srcs/str_functions/ft_strlcpy.c \
+		  srcs/str_functions/ft_strlen.c \
+		  srcs/str_functions/ft_strmapi.c \
+		  srcs/str_functions/ft_strncmp.c \
+		  srcs/str_functions/ft_strnstr.c \
+		  srcs/str_functions/ft_strrchr.c \
+		  srcs/str_functions/ft_strtrim.c \
+		  srcs/str_functions/ft_substr.c 
 
-BSRCS	= ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
+BSRCS	= srcs/lst_functions/ft_lstadd_back.c \
+		  srcs/lst_functions/ft_lstadd_front.c \
+		  srcs/lst_functions/ft_lstclear.c \
+		  srcs/lst_functions/ft_lstdelone.c \
+		  srcs/lst_functions/ft_lstiter.c \
+		  srcs/lst_functions/ft_lstlast.c \
+		  srcs/lst_functions/ft_lstmap.c \
+		  srcs/lst_functions/ft_lstnew.c \
+		  srcs/lst_functions/ft_lstsize.c
 
 OBJS 	= ${SRCS:.c=.o}
 
