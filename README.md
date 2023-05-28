@@ -2,7 +2,7 @@
 
 ## My own library of C functions
 
-This project is the first one of the 42 cursus. The goal is to create and reproduce differents functions to use them in our future projects. You will find the subject of the project into the repository. My grade : 122/100.
+This project is the first one of the 42 common core. The goal is to create and reproduce differents functions to use them in our future projects. You will find the subject of the project into the repository. My grade : 122/100.
 
 ## How to use it
 
